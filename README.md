@@ -42,6 +42,8 @@ The output of every script can be piped, except for `nasm32/64` that simply drop
 
  * `txt` - extracts raw .text section from executable
 
+ * `datxt` - same as above, but extracts also .data section and saves both in separate files
+
  * `push` - creates an assembly push sequence that places a desired string on stack
 * _More coming soon..._
 
