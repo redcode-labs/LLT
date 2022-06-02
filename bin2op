@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$(xxd -i $1|sed '$ d'| sed '$ d'|sed '1,1d'|tr '\n' ' ')"

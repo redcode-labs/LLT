@@ -24,6 +24,10 @@ The output of every script can be piped, except for `nasm32/64` that simply drop
 
 * `bin2hex` - converts raw binary file to a hexpair stream
 
+* `bin2op` - converts raw binary file to a hexpair stream in "0xFF, ..." form
+
+* `bin2x` - converts raw binary file to a hexpair stream in "\xFF\xEE" form
+
 * `cmd2hex` - constructs a base64 command executor and converts it to hex
 
 * `nulls` - shows all instructions from object file that contain nullbytes 
